@@ -16,10 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
-      </head>
+    <html lang="en" >
       <body className={inter.className}><ThemeProvider
             attribute="class"
             defaultTheme="dark"
