@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Omar, a businesse Computing student based in Tunisia.
+            Hi! I&apos;m Omar, a business Computing student based in Tunisia.
           </p>
 
           <a href="#about">
