@@ -72,7 +72,7 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "php e-commerce web-app ",
+      title: "e-commerce web-app ",
       des: "search and filtre cars to buy or sell using php",
       img: "/ProjetPhp.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -80,8 +80,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "projetthnin",
-      des: "desc projet2",
+      title: "chat application",
+      des: "basic chat mobile application using flutter",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "/ui.yoom.com",
