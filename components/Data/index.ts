@@ -90,7 +90,7 @@ export const navItems = [
       id: 3,
       title: "Admin Dashboard",
       des: "Admin Dashboard ui html css js",
-      img: "/p3.svg",
+      img: "/admindash.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "/ui.aiimg.com",
     },
