@@ -88,8 +88,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Projet3",
-      des: "desc projet 3",
+      title: "Admin Dashboard",
+      des: "Admin Dashboard ui html css js",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "/ui.aiimg.com",
