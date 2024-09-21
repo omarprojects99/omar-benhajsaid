@@ -98,7 +98,7 @@ export const navItems = [
       id: 4,
       title: "proj 4",
       des: "desc proj '",
-      img: "/p4.svg",
+      img: "/coming-soon-word-metallic-text-style.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "/ui.apple.com",
     },
