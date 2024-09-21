@@ -82,7 +82,7 @@ export const navItems = [
       id: 2,
       title: "chat application",
       des: "basic chat mobile application using flutter",
-      img: "/p2.svg",
+      img: "/chatapp.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "/ui.yoom.com",
     },
