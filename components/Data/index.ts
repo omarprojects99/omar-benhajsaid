@@ -102,6 +102,14 @@ export const navItems = [
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "/ui.apple.com",
     },
+    {
+      id: 5,
+      title: "flutter e-commerce",
+      des: "phones mobile app",
+      img: "/webapp phone.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "/ui.apple.com",
+    }
   ];
   
  
