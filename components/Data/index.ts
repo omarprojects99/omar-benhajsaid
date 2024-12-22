@@ -96,9 +96,9 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "proj 4",
-      des: "desc proj '",
-      img: "/coming-soon-word-metallic-text-style.jpg",
+      title: "phone e-commerce",
+      des: "e-commerce phone webapp",
+      img: "/webapp phone.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "/ui.apple.com",
     },
