@@ -1,7 +1,9 @@
+import { style } from "framer-motion/client";
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    
+    { name: "Blog", link: "#Blog" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -68,6 +70,17 @@ export const navItems = [
       spareImg: "",
     },
   ];
+  export const blog = [
+    {
+      id: 1,
+      title: "Cameras hacked!:#Pentesting",
+      des: "Most of Open cameras are vulnerable",
+      img: "/cameras.png",
+      iconLists: ["/kali.jpg",],
+      link: "app\page2.tsx",
+    },
+   
+  ];
   
   export const projects = [
     {
@@ -76,7 +89,7 @@ export const navItems = [
       des: "search and filtre cars to buy or sell using php",
       img: "/ProjetPhp.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      link: "https://github.com/omarprojects99/e-commerce-website-php.git",
     },
     {
       id: 2,
@@ -100,7 +113,7 @@ export const navItems = [
       des: "e-commerce phone webapp",
       img: "/webapp phone.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      link: "https://omarintegration.vercel.app/",
     },
     {
       id: 5,
@@ -108,7 +121,7 @@ export const navItems = [
       des: "phones mobile app",
       img: "/flutter shoe.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      link: "https://github.com/omarprojects99/phone-e-commerce-flutter.git",
     }
   ];
   

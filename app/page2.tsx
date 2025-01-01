@@ -16,12 +16,9 @@ export default function Home() {
     overflow-clip mx-auto sm:px-10 px-5
     ">
       <div className="max-w-7xt w-full">
-        <FloatingNav navItems={navItems}/>
-        <Hero />
-        <Grid />
-        <Blog />
-        <RecentProjects />
         
+        
+        <Blog />
         <Footer/>
       </div>
     </main>
