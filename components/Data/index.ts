@@ -77,7 +77,7 @@ export const navItems = [
       des: "Most of Open cameras are vulnerable",
       img: "/cameras.png",
       iconLists: ["/kali.jpg",],
-      link: "app\page2.tsx",
+      link: "https://omarcyberblog.vercel.app",
     },
    
   ];

@@ -65,6 +65,7 @@ const Hero = () => {
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
+             
             />
           </a>
           <a href="#Blog">

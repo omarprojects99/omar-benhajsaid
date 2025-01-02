@@ -9,7 +9,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
 
-export default function Home() {
+export default function BlogPage() {
   return (
     <main className="relative bg-black-100
     flex justfy-center items-center flex-col
