@@ -73,7 +73,7 @@ export const navItems = [
   export const blog = [
     {
       id: 1,
-      title: "Cameras hacked!:#Pentesting",
+      title: "How i hacked open cameras!:#Pentesting",
       des: "Most of Open cameras are vulnerable",
       img: "/cameras.png",
       iconLists: ["/kali.jpg",],
