@@ -60,7 +60,7 @@ const Hero = () => {
             Hi! I&apos;m Omar, a business Computing student based in Tunisia.
           </p>
 
-          <a href="#about">
+          <a  href="#about" style={{marginBottom:'15px'}}>
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
