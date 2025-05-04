@@ -85,7 +85,7 @@ export const navItems = [
       des: "Are Your Databases Securely Locked Down?",
       img: "/datasecure.png",
       iconLists: ["/kali.jpg",],
-      link: "https://omarcyberblog.vercel.app",
+      link: "https://omar-pentesting-blog1.vercel.app/",
     },
    
   ];
