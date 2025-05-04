@@ -79,6 +79,14 @@ export const navItems = [
       iconLists: ["/kali.jpg",],
       link: "https://omarcyberblog.vercel.app",
     },
+    {
+      id: 1,
+      title: "Database Intrusion: Learning from Real-World Exposures",
+      des: "Are Your Databases Securely Locked Down?",
+      img: "/datasecure.png",
+      iconLists: ["/kali.jpg",],
+      link: "https://omarcyberblog.vercel.app",
+    },
    
   ];
   
