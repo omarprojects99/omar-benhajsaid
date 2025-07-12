@@ -96,7 +96,7 @@ export const navItems = [
       title: "platform for Tunisair",
       des: "Monitoring and control of onboard sales and offers",
       img: "/Screenshot 2025-07-04 134009.png",
-      iconLists: ["/File_.NET_Core_Logo.svg"],
+      iconLists: ["/NETLogo.svg"],
       link: "https://github.com/omarprojects99/VAB",
     },
     {
