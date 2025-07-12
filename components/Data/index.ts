@@ -80,7 +80,7 @@ export const navItems = [
       link: "https://omarcyberblog.vercel.app",
     },
     {
-      id: 1,
+      id: 2,
       title: "Database Intrusion: Learning from Real-World Exposures",
       des: "Are Your Databases Securely Locked Down?",
       img: "/datasecure.png",
@@ -93,6 +93,14 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "platform for Tunisair",
+      des: "Monitoring and control of onboard sales and offers",
+      img: "/Screenshot 2025-07-04 134009.png",
+      iconLists: ["/File_.NET_Core_Logo.svg"],
+      link: "https://github.com/omarprojects99/VAB",
+    },
+    {
+      id: 2,
       title: "e-commerce web-app ",
       des: "search and filtre cars to buy or sell using php",
       img: "/ProjetPhp.png",
@@ -100,7 +108,7 @@ export const navItems = [
       link: "https://github.com/omarprojects99/e-commerce-website-php.git",
     },
     {
-      id: 2,
+      id: 3,
       title: "chat application",
       des: "basic chat mobile application using flutter",
       img: "/chatapp.jpg",
@@ -108,7 +116,7 @@ export const navItems = [
       link: "/ui.yoom.com",
     },
     {
-      id: 3,
+      id: 4,
       title: "Admin Dashboard",
       des: "Admin Dashboard ui html css js",
       img: "/admindash.png",
@@ -116,7 +124,7 @@ export const navItems = [
       link: "/ui.aiimg.com",
     },
     {
-      id: 4,
+      id: 5,
       title: "phone e-commerce",
       des: "e-commerce phone webapp",
       img: "/webapp phone.png",
@@ -124,7 +132,7 @@ export const navItems = [
       link: "https://omarintegration.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "flutter e-commerce",
       des: "phones mobile app",
       img: "/flutter shoe.png",
