@@ -93,7 +93,7 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "platform for Tunisair",
+      title: "internship project for Tunisair",
       des: "Monitoring and control of onboard sales and offers",
       img: "/Screenshot 2025-07-04 134009.png",
       iconLists: ["/NETLogo.svg"],
