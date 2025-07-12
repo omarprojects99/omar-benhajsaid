@@ -96,7 +96,7 @@ export const navItems = [
       title: "internship project for Tunisair",
       des: "Monitoring and control of onboard sales and offers",
       img: "/Screenshot 2025-07-04 134009.png",
-      iconLists: ["/NETLogo.svg"],
+      iconLists: ["/dotneticon.png"],
       link: "https://github.com/omarprojects99/VAB",
     },
     {
