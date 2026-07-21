@@ -93,6 +93,14 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Free lance project for a client",
+      des: "A scalable Arabic publishing platform built to deliver engaging educational and lifestyle content. Focused on responsive design, fast loading, SEO optimization, and an intuitive user experience for both readers and administrators.",
+      img: "/Screenshot 2025-07-04 134009.png",
+      iconLists: ["/image.png"],
+      link: "https://github.com/omarprojects99/VAB",
+    },
+    {
+      id: 2,
       title: "internship project for Tunisair",
       des: "Monitoring and control of onboard sales and offers",
       img: "/Screenshot 2025-07-04 134009.png",
@@ -100,7 +108,7 @@ export const navItems = [
       link: "https://github.com/omarprojects99/VAB",
     },
     {
-      id: 2,
+      id: 3,
       title: "e-commerce web-app ",
       des: "search and filtre cars to buy or sell using php",
       img: "/ProjetPhp.png",
@@ -108,7 +116,7 @@ export const navItems = [
       link: "https://github.com/omarprojects99/e-commerce-website-php.git",
     },
     {
-      id: 3,
+      id: 4,
       title: "chat application",
       des: "basic chat mobile application using flutter",
       img: "/chatapp.jpg",
@@ -116,7 +124,7 @@ export const navItems = [
       link: "/ui.yoom.com",
     },
     {
-      id: 4,
+      id: 5,
       title: "Admin Dashboard",
       des: "Admin Dashboard ui html css js",
       img: "/admindash.png",
@@ -124,7 +132,7 @@ export const navItems = [
       link: "/ui.aiimg.com",
     },
     {
-      id: 5,
+      id: 6,
       title: "phone e-commerce",
       des: "e-commerce phone webapp",
       img: "/webapp phone.png",
@@ -132,7 +140,7 @@ export const navItems = [
       link: "https://omarintegration.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "flutter e-commerce",
       des: "phones mobile app",
       img: "/flutter shoe.png",
