@@ -95,7 +95,7 @@ export const navItems = [
       id: 1,
       title: "Free lance project for a client",
       des: "A scalable Arabic publishing platform built to deliver engaging educational and lifestyle content. Focused on responsive design, fast loading, SEO optimization, and an intuitive user experience for both readers and administrators.",
-      img: "/Screenshot 2025-07-04 134009.png",
+      img: "/image.png",
       iconLists: ["/image.png"],
       link: "https://github.com/omarprojects99/VAB",
     },
