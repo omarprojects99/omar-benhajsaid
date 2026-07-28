@@ -1,5 +1,3 @@
-import { style } from "framer-motion/client";
-
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -105,7 +103,7 @@ export const navItems = [
       des: "Monitoring and control of onboard sales and offers",
       img: "/Screenshot 2025-07-04 134009.png",
       iconLists: ["/dotneticon.png"],
-      link: "https://github.com/omarprojects99/VAB",
+      link: "/tunisair-project",
     },
     {
       id: 3,
