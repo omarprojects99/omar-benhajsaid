@@ -1,8 +1,9 @@
 import TunisairProjectPage from "@/components/ui/TunisairProjectPage";
 
 export const metadata = {
-  title: "TunisAir Project | Portfolio",
-  description: "A detailed look at the TunisAir internship project, its story, and gallery.",
+  title: "In-Flight Sales & Operations Platform | TunisAir",
+  description:
+    "A Blazor and .NET 8 platform automating Tunisair in-flight sales, crew commissions, cash reconciliation, and operational reporting.",
 };
 
 export default function TunisairProjectRoute() {

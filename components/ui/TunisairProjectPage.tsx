@@ -137,20 +137,20 @@ export default function TunisairProjectPage() {
                 Internship project • TunisAir
               </span>
               <h1 className="text-3xl font-black sm:text-4xl lg:text-5xl">
-                VAB is a full-featured ASP.NET Core MVC application designed to manage business operations and financial processes in a structured and automated way.
+                In-Flight Sales &amp; Operations Management Platform
               </h1>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-300">
-                The system includes role-based access control, sales and offer management, commission and redevance calculation, cash shortage detection, reporting dashboards, and document processing features. Built with C#, ASP.NET Core, Entity Framework Core, SQL Server, SignalR, and external APIs such as Twilio, the project demonstrates strong backend development, database design, secure authentication, and business-driven software engineering.
+                An enterprise-grade Blazor application built with .NET 8 to automate Tunisair&apos;s in-flight sales, crew workflows, and financial operations. It brings sales, flight and crew assignments, commission calculations, cash reconciliation, and reporting together in one secure platform—reducing manual work while improving accuracy.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <div className="rounded-2xl border border-purple-500/20 bg-purple-500/10 px-4 py-3">
                   <p className="text-xs uppercase tracking-[0.35em] text-purple-200">Role</p>
-                  <p className="mt-1 font-semibold">Developer • UI/logic implementation</p>
+                  <p className="mt-1 font-semibold">Full-stack developer • Workflow automation</p>
                 </div>
                 <div className="rounded-2xl border border-purple-500/20 bg-purple-500/10 px-4 py-3">
                   <p className="text-xs uppercase tracking-[0.35em] text-purple-200">Stack</p>
-                  <p className="mt-1 font-semibold">.NET • Dashboard • Internal tools</p>
+                  <p className="mt-1 font-semibold">Blazor • .NET 8 • SQL Server</p>
                 </div>
               </div>
             </div>
@@ -172,27 +172,34 @@ export default function TunisairProjectPage() {
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
             <h2 className="text-2xl font-semibold text-purple-200">Project story</h2>
             <p className="mt-4 text-base leading-8 text-slate-300">
-              VAB is a complete web-based business management application developed in ASP.NET Core MVC. It is designed to help an organization manage operational and financial processes in a structured, secure, and efficient way. The project is not just a simple website; it is a full business solution that centralizes several important workflows such as sales tracking, offer management, commission calculation, royalty calculation, cash shortage monitoring, user administration, and reporting.
+              This platform centralizes the day-to-day work behind onboard sales: managing sales and offers, matching transactions with flights and crew rosters, calculating commissions, reconciling cash, and reviewing financial performance. Its responsive Blazor interface gives administrative and operational teams a shared, real-time view of their workflows.
             </p>
             <p className="mt-4 text-base leading-8 text-slate-300">
-              At its core, VAB digitizes and automates business tasks that are usually handled manually. It allows different users to interact with the system according to their role, such as Admin, Data Entry Operator, and DGF, with access to the appropriate features and dashboard, improving organization, security, and productivity.
+              Automation replaces repetitive checks and calculations with validated workflows. Sales are associated with the right flight, crew, and articles; commissions adapt to crew assignments, including dynamic PNC allocations; and cash overages or shortages are flagged as soon as a discrepancy is detected.
+            </p>
+            <p className="mt-4 text-base leading-8 text-slate-300">
+              Built on .NET 8 with ASP.NET Core Identity, the application protects sensitive operations with role-based access for DGF, Agent Saisie, and administrators. PDF report extraction, in-app notifications, detailed logging, and French-ready validation help make the system practical for real operational use.
             </p>
           </div>
 
           <div className="rounded-[2rem] border border-cyan-400/20 bg-cyan-500/10 p-6 backdrop-blur-xl">
-            <h2 className="text-2xl font-semibold text-cyan-200">What the project delivered</h2>
+            <h2 className="text-2xl font-semibold text-cyan-200">Automation at the core</h2>
             <ul className="mt-4 space-y-3 text-slate-200">
-              <li className="flex gap-3"><span className="mt-2 h-2.5 w-2.5 rounded-full bg-cyan-300" />Role-based access control for Admin, Data Entry Operator, and DGF users.</li>
-              <li className="flex gap-3"><span className="mt-2 h-2.5 w-2.5 rounded-full bg-cyan-300" />Sales, offer, commission, and royalty management modules with reporting and analytics.</li>
-              <li className="flex gap-3"><span className="mt-2 h-2.5 w-2.5 rounded-full bg-cyan-300" />Cash shortage detection, document processing, and real-time notifications for operational visibility.</li>
+              <li className="flex gap-3"><span className="mt-2 h-2.5 w-2.5 rounded-full bg-cyan-300" />Automatically calculates crew commissions from sales, with support for dynamic PNC assignments.</li>
+              <li className="flex gap-3"><span className="mt-2 h-2.5 w-2.5 rounded-full bg-cyan-300" />Detects cash-register overages and shortages in real time to surface “trou de caisse” discrepancies.</li>
+              <li className="flex gap-3"><span className="mt-2 h-2.5 w-2.5 rounded-full bg-cyan-300" />Connects sales and offers to flight manifests, crew rosters, and article catalogs with validation and duplicate checks.</li>
+              <li className="flex gap-3"><span className="mt-2 h-2.5 w-2.5 rounded-full bg-cyan-300" />Applies managed exchange rates to transactions and extracts data from PDF reports.</li>
+              <li className="flex gap-3"><span className="mt-2 h-2.5 w-2.5 rounded-full bg-cyan-300" />Provides financial dashboards for revenue, sales, offers, commissions, and operational KPIs.</li>
             </ul>
 
             <div className="mt-6 rounded-2xl border border-white/10 bg-black/20 p-4">
               <p className="text-sm uppercase tracking-[0.35em] text-slate-400">Highlights</p>
               <div className="mt-3 flex flex-wrap gap-2">
-                <span className="rounded-full border border-purple-400/20 bg-purple-500/10 px-3 py-1 text-sm text-purple-100">Role-based dashboards</span>
-                <span className="rounded-full border border-purple-400/20 bg-purple-500/10 px-3 py-1 text-sm text-purple-100">Financial reporting</span>
-                <span className="rounded-full border border-purple-400/20 bg-purple-500/10 px-3 py-1 text-sm text-purple-100">Business automation</span>
+                <span className="rounded-full border border-purple-400/20 bg-purple-500/10 px-3 py-1 text-sm text-purple-100">Crew commission automation</span>
+                <span className="rounded-full border border-purple-400/20 bg-purple-500/10 px-3 py-1 text-sm text-purple-100">Cash reconciliation</span>
+                <span className="rounded-full border border-purple-400/20 bg-purple-500/10 px-3 py-1 text-sm text-purple-100">Flight &amp; crew assignment</span>
+                <span className="rounded-full border border-purple-400/20 bg-purple-500/10 px-3 py-1 text-sm text-purple-100">Role-based security</span>
+                <span className="rounded-full border border-purple-400/20 bg-purple-500/10 px-3 py-1 text-sm text-purple-100">PDF data extraction</span>
               </div>
             </div>
           </div>

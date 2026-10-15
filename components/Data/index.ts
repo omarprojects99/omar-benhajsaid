@@ -99,8 +99,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "internship project for Tunisair",
-      des: "Monitoring and control of onboard sales and offers",
+      title: "Tunisair In-Flight Operations Platform",
+      des: "Automating onboard sales, crew commissions, cash reconciliation, and flight operations with Blazor and .NET 8.",
       img: "/Screenshot 2025-07-04 134009.png",
       iconLists: ["/dotneticon.png"],
       link: "/tunisair-project",
