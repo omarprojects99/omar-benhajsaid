@@ -1,18 +1,44 @@
 import React from 'react'
-import { blog, projects } from './Data'
+import { blog } from './Data'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
 
-const Blog = () => {
+type BlogProps = {
+  language: 'en' | 'de'
+}
+
+const Blog = ({ language }: BlogProps) => {
+  const isGerman = language === 'de'
+
+  const localizedBlog = isGerman
+    ? [
+        {
+          id: 1,
+          title: 'Wie ich offene Kameras gehackt habe! #Pentesting',
+          des: 'Viele offene Kameras sind anfällig',
+          img: '/cameras.png',
+          iconLists: ['/kali.jpg'],
+          link: 'https://omarcyberblog.vercel.app',
+        },
+        {
+          id: 2,
+          title: 'Datenbank-Inspektion: Lernen aus realen Sicherheitsvorfällen',
+          des: 'Sind Ihre Datenbanken sicher abgesichert?',
+          img: '/datasecure.png',
+          iconLists: ['/kali.jpg'],
+          link: 'https://omar-pentesting-blog1.vercel.app/',
+        },
+      ]
+    : blog
+
   return (
     <section id='Blog'>
     <div className="py-20" id='projects'>
       <h1 className="heading">
-        {" "}
-        <span className="text-purple">My blog</span>
+        {isGerman ? 'Mein' : 'My'} <span className="text-purple">{isGerman ? 'Blog' : 'blog'}</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
-            {blog.map(({id,title,des,img,iconLists,link}) =>(
+            {localizedBlog.map(({id,title,des,img,iconLists,link}) =>(
                 <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem]  flex items-center justify-center sm:w-[570px] w-[80vw]">
                     <PinContainer title={title} href={link}>
                         <div className='relative flex items-center justify-center  sm:w-[570px] sm:h-[40vh] w-[80vw] h-[30vh]
@@ -52,7 +78,7 @@ const Blog = () => {
                         <div className='flex justify-center items-center'>
                           <p className='flex lg:text-xl
                           md:text-xs text-sm text-purple'>
-                            check Blog
+                            {isGerman ? 'Blog ansehen' : 'check Blog'}
                           </p>
                           <FaLocationArrow className='ms-3'
                           color='#CBACF9'

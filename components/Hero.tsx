@@ -2,9 +2,16 @@ import React from 'react'
 import { Spotlight } from './ui/spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa'
+import { FaDownload, FaGlobe, FaLocationArrow } from 'react-icons/fa'
 
-const Hero = () => {
+type HeroProps = {
+  language: 'en' | 'de'
+  onToggleLanguage: () => void
+}
+
+const Hero = ({ language, onToggleLanguage }: HeroProps) => {
+  const isGerman = language === 'de'
+
   return (
     <div className="pb-20 pt-36">
       {/**
@@ -52,25 +59,45 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words={isGerman ? 'Konzeptionen in nahtlose Benutzererlebnisse verwandeln' : 'Transforming Concepts into Seamless User Experiences'}
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Omar, a business Computing student based in Germany 🇩🇪.
+            {isGerman
+              ? 'Hallo! Ich bin Omar, ein Student im Bereich Business Computing mit Sitz in Deutschland 🇩🇪.'
+              : 'Hi! I&apos;m Omar, a business Computing student based in Germany 🇩🇪.'}
           </p>
 
-          <a  href="#about" style={{marginBottom:'15px'}}>
+          <div className="mb-6 flex flex-wrap items-center justify-center gap-3">
+            <a
+              href="/cv/omar-cv.pdf"
+              download
+              className="inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-500/15 px-4 py-2 text-sm font-medium text-cyan-100 shadow-[0_0_25px_rgba(34,211,238,0.15)] transition hover:border-cyan-300/50 hover:bg-cyan-500/25"
+            >
+              <FaDownload />
+              {isGerman ? 'Lebenslauf herunterladen' : 'Download CV'}
+            </a>
+            <button
+              type="button"
+              onClick={onToggleLanguage}
+              className="inline-flex items-center gap-2 rounded-full border border-purple-400/30 bg-purple-500/15 px-4 py-2 text-sm font-medium text-purple-100 shadow-[0_0_25px_rgba(168,85,247,0.15)] transition hover:border-purple-300/50 hover:bg-purple-500/25"
+            >
+              <FaGlobe />
+              {isGerman ? 'EN' : 'DE'}
+            </button>
+          </div>
+
+          <a href="#about" style={{ marginBottom: '15px' }}>
             <MagicButton
-              title="Show my work"
+              title={isGerman ? 'Meine Arbeit ansehen' : 'Show my work'}
               icon={<FaLocationArrow />}
               position="right"
-             
             />
           </a>
           <a href="#Blog">
             <MagicButton
-              title="see my blog"
+              title={isGerman ? 'Meinen Blog sehen' : 'see my blog'}
               icon={<FaLocationArrow />}
               position="right"
             />
