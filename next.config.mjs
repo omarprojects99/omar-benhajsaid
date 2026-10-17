@@ -9,6 +9,14 @@ export default withSentryConfig(nextConfig, {
 org: "omar-benhajsaid",
 project: "javascript-nextjs",
 sentryUrl: "https://sentry.io/",
+// next.config.mjs
+
+    // Set the base path to match your GitHub repository name
+    basePath: '/NextJsPortfolio',
+
+    // Ensure URLs have trailing slashes (recommended for static hosting)
+    trailingSlash: true,
+
 
 // Only print logs for uploading source maps in CI
 silent: !process.env.CI,
@@ -36,4 +44,5 @@ disableLogger: true,
 // https://docs.sentry.io/product/crons/
 // https://vercel.com/docs/cron-jobs
 automaticVercelMonitors: true,
+
 });
