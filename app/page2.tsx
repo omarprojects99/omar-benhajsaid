@@ -18,8 +18,8 @@ export default function BlogPage() {
       <div className="max-w-7xt w-full">
         
         
-        <Blog />
-        <Footer/>
+        <Blog language="en" />
+        <Footer language="en" />
       </div>
     </main>
     );
