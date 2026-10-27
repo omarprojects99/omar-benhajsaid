@@ -70,10 +70,10 @@ const RecentProjects = ({ language }: RecentProjectsProps) => {
                           </p>
                           <div className='flex items-center justify-between m7- mb-3'>
                             <div className='flex items-center'>
-                              {iconLists.map((icon) => (
+                              {iconLists.map((icon, index) => (
                               <div key={icon} className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center
                                 '
-                                style={{transform:`translateX(-$){5* index * 2}pxl)`}} 
+                                style={{ transform: `translateX(-${index * 10}px)` }}
                               >
                                 <img src={icon} alt={icon}
                                 className='p-2'/>

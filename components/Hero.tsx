@@ -88,7 +88,7 @@ const Hero = ({ language, onToggleLanguage }: HeroProps) => {
             </button>
           </div>
 
-          <a href="#about" style={{ marginBottom: '15px' }}>
+          <a href="#projects" style={{ marginBottom: '15px' }}>
             <MagicButton
               title={isGerman ? 'Meine Arbeit ansehen' : 'Show my work'}
               icon={<FaLocationArrow />}

@@ -33,7 +33,7 @@ const Blog = ({ language }: BlogProps) => {
 
   return (
     <section id='Blog'>
-    <div className="py-20" id='projects'>
+    <div className="py-20">
       <h1 className="heading">
         {isGerman ? 'Mein' : 'My'} <span className="text-purple">{isGerman ? 'Blog' : 'blog'}</span>
       </h1>
@@ -62,10 +62,10 @@ const Blog = ({ language }: BlogProps) => {
                           </p>
                           <div className='flex items-center justify-between m7- mb-3'>
                             <div className='flex items-center'>
-                              {iconLists.map((icon) => (
+                              {iconLists.map((icon, index) => (
                               <div key={icon} className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center
                                 '
-                                style={{transform:`translateX(-$){5* index * 2}pxl)`}} 
+                                style={{ transform: `translateX(-${index * 10}px)` }}
                               >
                                 <img src={icon} alt={icon}
                                 className='p-2'/>
