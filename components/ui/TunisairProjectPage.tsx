@@ -140,7 +140,7 @@ export default function TunisairProjectPage() {
                 In-Flight Sales &amp; Operations Management Platform
               </h1>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-300">
-                An enterprise-grade Blazor application built with .NET 8 to automate Tunisair&apos;s in-flight sales, crew workflows, and financial operations. It brings sales, flight and crew assignments, commission calculations, cash reconciliation, and reporting together in one secure platform—reducing manual work while improving accuracy.
+                An enterprise-grade ASP.NET Core MVC application to automate Tunisair&apos;s in-flight sales, crew workflows, and financial operations. It brings sales, flight and crew assignments, commission calculations, cash reconciliation, and reporting together in one secure platform—reducing manual work while improving accuracy.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
@@ -150,7 +150,7 @@ export default function TunisairProjectPage() {
                 </div>
                 <div className="rounded-2xl border border-purple-500/20 bg-purple-500/10 px-4 py-3">
                   <p className="text-xs uppercase tracking-[0.35em] text-purple-200">Stack</p>
-                  <p className="mt-1 font-semibold">Blazor • .NET 8 • SQL Server</p>
+                  <p className="mt-1 font-semibold">ASP.NET Core MVC • SQL Server</p>
                 </div>
               </div>
             </div>
@@ -172,13 +172,13 @@ export default function TunisairProjectPage() {
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
             <h2 className="text-2xl font-semibold text-purple-200">Project story</h2>
             <p className="mt-4 text-base leading-8 text-slate-300">
-              This platform centralizes the day-to-day work behind onboard sales: managing sales and offers, matching transactions with flights and crew rosters, calculating commissions, reconciling cash, and reviewing financial performance. Its responsive Blazor interface gives administrative and operational teams a shared, real-time view of their workflows.
+              This platform centralizes the day-to-day work behind onboard sales: managing sales and offers, matching transactions with flights and crew rosters, calculating commissions, reconciling cash, and reviewing financial performance. Its responsive ASP.NET Core MVC interface gives administrative and operational teams a shared, real-time view of their workflows.
             </p>
             <p className="mt-4 text-base leading-8 text-slate-300">
               Automation replaces repetitive checks and calculations with validated workflows. Sales are associated with the right flight, crew, and articles; commissions adapt to crew assignments, including dynamic PNC allocations; and cash overages or shortages are flagged as soon as a discrepancy is detected.
             </p>
             <p className="mt-4 text-base leading-8 text-slate-300">
-              Built on .NET 8 with ASP.NET Core Identity, the application protects sensitive operations with role-based access for DGF, Agent Saisie, and administrators. PDF report extraction, in-app notifications, detailed logging, and French-ready validation help make the system practical for real operational use.
+              Built with ASP.NET Core MVC and ASP.NET Core Identity, the application protects sensitive operations with role-based access for DGF, Agent Saisie, and administrators. PDF report extraction, in-app notifications, detailed logging, and French-ready validation help make the system practical for real operational use.
             </p>
           </div>
 
