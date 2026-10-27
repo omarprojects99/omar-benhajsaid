@@ -66,7 +66,7 @@ const Hero = ({ language, onToggleLanguage }: HeroProps) => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             {isGerman
               ? 'Hallo! Ich bin Omar, ein Student im Bereich Business Computing mit Sitz in Deutschland 🇩🇪.'
-              : 'Hi! I&apos;m Omar, a business Computing student based in Germany 🇩🇪.'}
+              : "Hi! I'm Omar, a business Computing student based in Germany 🇩🇪."}
           </p>
 
           <div className="mb-6 flex flex-wrap items-center justify-center gap-3">
