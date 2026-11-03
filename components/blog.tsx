@@ -14,7 +14,7 @@ const Blog = ({ language }: BlogProps) => {
     ? [
         {
           id: 1,
-          title: 'Wie ich offene Kameras gehackt habe! #Pentesting',
+          title: 'Sicherheitsforschung: Häufige Schwachstellen bei exponierten IP-Kameras',
           des: 'Viele offene Kameras sind anfällig',
           img: '/cameras.png',
           iconLists: ['/kali.jpg'],
@@ -22,7 +22,7 @@ const Blog = ({ language }: BlogProps) => {
         },
         {
           id: 2,
-          title: 'Datenbank-Inspektion: Lernen aus realen Sicherheitsvorfällen',
+          title: 'Datenbanksicherheit: Analyse einer falsch konfigurierten Datenbankfreigabe',
           des: 'Sind Ihre Datenbanken sicher abgesichert?',
           img: '/datasecure.png',
           iconLists: ['/kali.jpg'],

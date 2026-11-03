@@ -71,7 +71,7 @@ export const navItems = [
   export const blog = [
     {
       id: 1,
-      title: "How i hacked open cameras!:#Pentesting",
+      title: "Security Research: Common Vulnerabilities in Exposed IP Cameras",
       des: "Most of Open cameras are vulnerable",
       img: "/cameras.png",
       iconLists: ["/kali.jpg",],
@@ -79,7 +79,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Database Intrusion: Learning from Real-World Exposures",
+      title: "Database Security: Analysis of Misconfigured Database Exposure",
       des: "Are Your Databases Securely Locked Down?",
       img: "/datasecure.png",
       iconLists: ["/kali.jpg",],
