@@ -100,7 +100,7 @@ export const navItems = [
     {
       id: 2,
       title: "Tunisair In-Flight Operations Platform",
-      des: "Automating onboard sales, crew commissions, cash reconciliation, and flight operations with Blazor and .NET 8.",
+      des: "Automating onboard sales, crew commissions, cash reconciliation, and flight operations with ASP.NET Core MVC and .NET 8.",
       img: "/Screenshot 2025-07-04 134009.png",
       iconLists: ["/dotneticon.png"],
       link: "/tunisair-project",

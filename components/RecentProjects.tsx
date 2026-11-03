@@ -23,7 +23,7 @@ const RecentProjects = ({ language }: RecentProjectsProps) => {
         {
           id: 2,
           title: 'Tunisair-Plattform für Bordverkauf & Betrieb',
-          des: 'Automatisiert Bordverkäufe, Crew-Provisionen, Kassenabgleich und Flugabläufe mit Blazor und .NET 8.',
+          des: 'Automatisiert Bordverkäufe, Crew-Provisionen, Kassenabgleich und Flugabläufe mit ASP.NET Core MVC und .NET 8.',
           img: '/Screenshot 2025-07-04 134009.png',
           iconLists: ['/dotneticon.png'],
           link: '/tunisair-project',
